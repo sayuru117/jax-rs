@@ -36,11 +36,13 @@ public class BillingDAO implements Dao<Billing>{
 
 	@Override
 	public void add(Billing billing) {
+		billingList.add(billing);
 
 	}
 
 	@Override
-	public void update(Billing billing, String[] params) {
+	public void update(Billing billing, int params) {
+
 
 	}
 

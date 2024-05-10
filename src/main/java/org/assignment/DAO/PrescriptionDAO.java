@@ -34,7 +34,7 @@ public class PrescriptionDAO implements Dao<Prescription>{
 	}
 
 	@Override
-	public void update(Prescription prescription, String[] params) {
+	public void update(Prescription prescription, int params) {
 
 	}
 

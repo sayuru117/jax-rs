@@ -34,7 +34,7 @@ public class MedicalRecordDAO implements Dao<MedicalRecord>{
 	}
 
 	@Override
-	public void update(MedicalRecord medicalRecord, String[] params) {
+	public void update(MedicalRecord medicalRecord, int params) {
 
 	}
 

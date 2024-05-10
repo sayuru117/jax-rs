@@ -5,11 +5,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
 @Path("/best")
-public class MyResourses {
+public class BillingResourses {
 
 	@GET
-	@Path("/sayu")
+	@Path("/hello")
 	public Response sayHello() {
-		return Response.status(200).entity("Hello Sayu").build();
+		return Response.status(200).entity("Hello").build();
 	}
 }

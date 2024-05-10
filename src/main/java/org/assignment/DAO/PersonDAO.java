@@ -34,7 +34,7 @@ public class PersonDAO implements Dao<Person>{
     }
 
     @Override
-    public void update(Person person, String[] params) {
+    public void update(Person person, int params) {
 
     }
 

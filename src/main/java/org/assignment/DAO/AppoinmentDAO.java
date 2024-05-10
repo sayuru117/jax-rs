@@ -37,7 +37,7 @@ public class AppoinmentDAO implements Dao<Appoinment>{
 	}
 
 	@Override
-	public void update(Appoinment appoinment, String[] params) {
+	public void update(Appoinment appoinment, int params) {
 
 	}
 
